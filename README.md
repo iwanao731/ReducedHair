@@ -15,6 +15,7 @@ Menglei Chai, Changxi Zheng, Kun Zhou (SIGGRAPH 2014)
 
 ## 環境
 - openFrameworks v0.8.4
+	- http://www.openframeworks.cc/versions/v0.8.4/of_v0.8.4_vs_release.zip
 - Visual Studio 2012
 - Windows 7
 
