@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxHEMesh\src\ofxHEMesh.cpp">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshAdaptive.cpp">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshDEC.cpp">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshDraw.cpp">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshIterators.cpp">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshOBJLoader.cpp">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshSelection.cpp">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshSubdivision.cpp">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMeshUtil\src\ofxMeshUtil.cpp">
+      <Filter>addons\ofxMeshUtil\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxRay\src\ofxRay\Base.cpp">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxRay\src\ofxRay\Camera.cpp">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxRay\src\ofxRay\Plane.cpp">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxRay\src\ofxRay\Projector.cpp">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxRay\src\ofxRay\Ray.cpp">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUI2DGraph.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUI2DPad.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIBaseDraws.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIBiLabelSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUICanvas.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUICircleSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIDragableLabelButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIDropDownList.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIEventArgs.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIFPS.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIFPSSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImage.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImageButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImageSampler.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImageSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIImageToggle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUILabel.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUILabelButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUILabelToggle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIMinimalSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIMovingGraph.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageButton.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageToggle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUINumberDialer.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIRadio.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIRangeSlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIRectangle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIRotarySlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIScrollableCanvas.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISlider.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISortableList.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISpacer.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISpectrum.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUISuperCanvas.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUITabBar.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUITextArea.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUITextInput.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIToggle.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIToggleMatrix.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIValuePlotter.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIWaveform.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIWidget.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUI\src\ofxUIWidgetWithLabel.cpp">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairBoundary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairCollision.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairDraw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairEdge.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairGraph.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairGroup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairGuideSelection.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairJoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairModel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairModelOBJLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairModelSelection.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairNode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairParticle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairSim.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairSkeleton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairSkinning.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairStrand.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxHairWeightOptimization.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Array.cc">
+      <Filter>src\QuadProg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QuadProg++.cc">
+      <Filter>src\QuadProg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uQuadProg++.cc">
+      <Filter>src\QuadProg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxHEMesh">
+      <UniqueIdentifier>{B46E50A3-83A0-4136-5793-035C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxHEMesh\src">
+      <UniqueIdentifier>{FB3D5DA0-DB22-CC85-1791-1850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMeshUtil">
+      <UniqueIdentifier>{9A9B3E32-6513-EC4E-FBB4-289F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMeshUtil\src">
+      <UniqueIdentifier>{04C74E1E-58B5-AC11-EE60-7B32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNearestNeighbour">
+      <UniqueIdentifier>{88E1A919-169D-BFAF-DFA0-6A31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNearestNeighbour\src">
+      <UniqueIdentifier>{78EF6CAB-A107-9AB7-266C-0B33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNearestNeighbour\libs">
+      <UniqueIdentifier>{FEF4887E-FB5D-2CA9-A1A8-99E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNearestNeighbour\libs\nanoflann">
+      <UniqueIdentifier>{ACBC5FC3-5E20-A98A-67EF-807C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNearestNeighbour\libs\nanoflann\include">
+      <UniqueIdentifier>{BE2DA6B2-97DD-AE02-B835-B255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxRay">
+      <UniqueIdentifier>{EC29978B-8C82-295B-E040-4DC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxRay\src">
+      <UniqueIdentifier>{74FBC829-550A-A0C9-8CB5-0FDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxRay\src\ofxRay">
+      <UniqueIdentifier>{5CB39972-96FB-BC3B-0AB4-9599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxUI">
+      <UniqueIdentifier>{B492C5B0-FF91-9C5A-638A-3142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxUI\src">
+      <UniqueIdentifier>{A00C2D23-6C11-BC86-3993-2CF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\QuadProg">
+      <UniqueIdentifier>{f11026f4-1f5d-4bc8-9d62-032038c9391a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMesh.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshAdaptive.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshAdjacency.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshDEC.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshDraw.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshIterators.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshNode.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshOBJLoader.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshPropertySet.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshSelection.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxHEMesh\src\ofxHEMeshSubdivision.h">
+      <Filter>addons\ofxHEMesh\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMeshUtil\src\ofxMeshUtil.h">
+      <Filter>addons\ofxMeshUtil\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNearestNeighbour\src\NearestNeighbour.h">
+      <Filter>addons\ofxNearestNeighbour\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNearestNeighbour\src\ofxNearestNeighbour.h">
+      <Filter>addons\ofxNearestNeighbour\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNearestNeighbour\src\PointCloud.h">
+      <Filter>addons\ofxNearestNeighbour\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNearestNeighbour\libs\nanoflann\include\nanoflann.hpp">
+      <Filter>addons\ofxNearestNeighbour\libs\nanoflann\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxRay\src\ofxRay\Base.h">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxRay\src\ofxRay\Camera.h">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxRay\src\ofxRay\Plane.h">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxRay\src\ofxRay\Projector.h">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxRay\src\ofxRay\Ray.h">
+      <Filter>addons\ofxRay\src\ofxRay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxRay\src\ofxRay.h">
+      <Filter>addons\ofxRay\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI2DGraph.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI2DPad.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIBaseDraws.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIBiLabelSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUICanvas.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUICircleSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIDefines.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIDragableLabelButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIDropDownList.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIEventArgs.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIFPS.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIFPSSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImage.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageSampler.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageToggle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabel.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabelButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabelToggle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMinimalSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMovingGraph.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageButton.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageToggle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUINumberDialer.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIOFWrapper.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRadio.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRangeSlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRectangle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRotarySlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIScrollableCanvas.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISlider.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISortableList.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISpacer.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISpectrum.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISuperCanvas.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUITabBar.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUITextArea.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUITextInput.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIToggle.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIToggleMatrix.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIUtils.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIValuePlotter.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWaveform.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWidget.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWidgets.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWidgetWithLabel.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWrapper.h">
+      <Filter>addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairBoundary.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairCollision.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairDraw.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairEdge.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairGraph.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairGroup.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairGuideSelection.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairJoint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairModel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairModelOBJLoader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairModelSelection.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairNode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairParticle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairSim.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairSkeleton.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairSkinning.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairStrand.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxHairWeightOptimization.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Array.hh">
+      <Filter>src\QuadProg</Filter>
+    </None>
+    <None Include="src\QuadProg++.hh">
+      <Filter>src\QuadProg</Filter>
+    </None>
+    <None Include="src\uQuadProg++.hh">
+      <Filter>src\QuadProg</Filter>
+    </None>
+  </ItemGroup>
+</Project>
