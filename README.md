@@ -19,9 +19,14 @@ Menglei Chai, Changxi Zheng, Kun Zhou (SIGGRAPH 2014)
 - Visual Studio 2012
 - Windows 7
 
-## 頭髪モデル
-- 以下，プロジェクトページよりダウンロード
+## 使用モデル
+以下，URLよりダウンロードし，bin/dataに追加
+- 頭髪モデル
+	- A Reduced Model for Interactive Hairs
 	- http://gaps-zju.org/reducedhair/
+- 形状モデル
+	- Free 3D IR Head Scan Release + Smart HDR IBL + Vray 2.0
+	- http://www.jonasavrin.com/2011/01/15/free-3d-ir-head-scan-release-smart-hdr-ibl-vray-2-0/
 
 ## 使用ライブラリ
 - Eigen
