@@ -10,13 +10,19 @@
 
 ## 使用ライブラリ
 - Eigen
+	- http://eigen.tuxfamily.org/index.php?title=Main_Page
 - QuadProg
--- http://quadprog.sourceforge.net/
+	- http://quadprog.sourceforge.net/
+- boost 1.6.0
+	- http://www.boost.org/
 
 ## 使用アドオン
 - ofxNearestNeighbor
+	- https://github.com/neilmendoza/ofxNearestNeighbour
 - ofxUI
+	- https://github.com/rezaali/ofxUI
 - ofxXmlSetting
+	- default
 
 ## 自作アドオン
 - ofxHEMesh
